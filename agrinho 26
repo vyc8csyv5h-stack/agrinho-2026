@@ -1,0 +1,2793 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Agro Forte, Futuro Sustentável — equilíbrio entre produção e meio ambiente. Site educacional para estudantes do Ensino Médio." />
+  <meta name="keywords" content="agronegócio, sustentabilidade, agricultura, Brasil, biomas, preservação ambiental" />
+  <title>Agro Forte, Futuro Sustentável</title>
+  <!-- Google Fonts: Merriweather + Source Sans Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       CABEÇALHO / NAVBAR
+       ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <!-- Logo -->
+      <a href="#home" class="navbar__logo" aria-label="Ir para o início">
+        <span class="navbar__logo-icon">🌱</span>
+        <span class="navbar__logo-text">Agro<strong>Futuro</strong></span>
+      </a>
+
+      <!-- Menu Desktop -->
+      <nav class="navbar__menu" id="navMenu" aria-label="Menu principal">
+        <ul class="navbar__list">
+          <li><a href="#intro"       class="navbar__link">Introdução</a></li>
+          <li><a href="#importancia" class="navbar__link">Importância</a></li>
+          <li><a href="#comparacao"  class="navbar__link">Comparação</a></li>
+          <li><a href="#biomas"      class="navbar__link">Biomas</a></li>
+          <li><a href="#dados"       class="navbar__link">Dados</a></li>
+          <li><a href="#timeline"    class="navbar__link">Evolução</a></li>
+          <li><a href="#quiz"        class="navbar__link">Quiz</a></li>
+          <li><a href="#galeria"     class="navbar__link">Galeria</a></li>
+          <li><a href="#referencias" class="navbar__link">Fontes</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburguer -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO / BANNER PRINCIPAL
+       ============================================================ -->
+  <section class="hero" id="home" aria-label="Banner principal">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Ensino Médio · Ciências Agrárias & Meio Ambiente</p>
+      <h1 class="hero__title">
+        Agro Forte,<br />
+        <span class="hero__title--accent">Futuro Sustentável</span>
+      </h1>
+      <p class="hero__subtitle">
+        Equilíbrio entre produção e meio ambiente: como o Brasil pode alimentar o mundo
+        sem destruir seus biomas.
+      </p>
+      <div class="hero__actions">
+        <a href="#intro" class="btn btn--primary">Explorar o tema</a>
+        <a href="#quiz"  class="btn btn--outline">Fazer o Quiz</a>
+      </div>
+    </div>
+    <!-- Estatísticas flutuantes no hero -->
+    <div class="hero__stats">
+      <div class="hero__stat">
+        <span class="hero__stat-number" data-target="338">0</span>
+        <span class="hero__stat-label">Mi toneladas de grãos (2023)</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-number" data-target="27">0</span>
+        <span class="hero__stat-label">% do PIB nacional</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-number" data-target="1">0</span>
+        <span class="hero__stat-label">em 3 empregos no Brasil</span>
+      </div>
+    </div>
+    <!-- Seta scroll -->
+    <a href="#intro" class="hero__scroll-arrow" aria-label="Rolar para baixo">
+      <span class="hero__scroll-icon">↓</span>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 1 — INTRODUÇÃO AO TEMA
+       Fonte: EMBRAPA / MAPA 2023
+       ============================================================ -->
+  <section class="section intro" id="intro">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Por que esse tema importa?</p>
+        <h2 class="section-title">O Campo no Centro do Debate Global</h2>
+        <p class="section-desc">
+          O Brasil ocupa uma posição única no planeta: é ao mesmo tempo uma das maiores
+          potências agrícolas do mundo <em>e</em> lar de biomas insubstituíveis para o
+          equilíbrio climático global.
+        </p>
+      </div>
+
+      <div class="intro__grid">
+        <!-- Card 1 -->
+        <article class="intro__card reveal">
+          <div class="intro__card-icon">🌾</div>
+          <h3 class="intro__card-title">Produção Recorde</h3>
+          <p class="intro__card-text">
+            Em 2023, o Brasil colheu <strong>338 milhões de toneladas</strong> de grãos —
+            recorde histórico — sendo o maior exportador mundial de soja, café, suco de
+            laranja, açúcar e carne bovina.
+            <!-- Fonte: CONAB – Acompanhamento da Safra Brasileira de Grãos, 2023/24 -->
+          </p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="intro__card reveal">
+          <div class="intro__card-icon">🌎</div>
+          <h3 class="intro__card-title">Biodiversidade em Risco</h3>
+          <p class="intro__card-text">
+            O Brasil abriga <strong>mais de 20% da biodiversidade</strong> do planeta.
+            O desmatamento acumulado na Amazônia já ultrapassa 20% de sua extensão original,
+            ameaçando o chamado "ponto de não retorno".
+            <!-- Fonte: INPE – Monitoramento do Desmatamento, 2023 -->
+          </p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="intro__card reveal">
+          <div class="intro__card-icon">⚡</div>
+          <h3 class="intro__card-title">O Caminho da Inovação</h3>
+          <p class="intro__card-text">
+            A tecnologia agropecuária brasileira, desenvolvida principalmente pela
+            <strong>EMBRAPA</strong>, mostrou que é possível <em>dobrar a produção</em>
+            sem expandir a área plantada — usando o solo já disponível de forma inteligente.
+            <!-- Fonte: EMBRAPA – 50 Anos de Pesquisa, 2023 -->
+          </p>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="intro__card reveal">
+          <div class="intro__card-icon">🤝</div>
+          <h3 class="intro__card-title">Segurança Alimentar</h3>
+          <p class="intro__card-text">
+            O agronegócio brasileiro alimenta mais de <strong>1 bilhão de pessoas</strong>
+            ao redor do mundo. Com a população global chegando a 10 bilhões até 2050,
+            produzir mais com menos impacto é uma necessidade urgente.
+            <!-- Fonte: FAO – World Food and Agriculture, 2022 -->
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 2 — IMPORTÂNCIA ECONÔMICA
+       Fonte: IBGE / CEPEA-USP / MAPA 2023
+       ============================================================ -->
+  <section class="section importancia" id="importancia">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Economia & Sociedade</p>
+        <h2 class="section-title">O Agro como Motor do Brasil</h2>
+        <p class="section-desc">
+          O agronegócio não é apenas "campo" — é ciência, tecnologia, logística e diplomacia.
+          Veja os números que provam sua centralidade para o país.
+        </p>
+      </div>
+
+      <!-- Contadores Animados -->
+      <div class="counters reveal">
+        <!-- Fonte: CEPEA-USP/CNA – PIB do Agronegócio 2023 -->
+        <div class="counter-card">
+          <span class="counter-number" data-target="27" data-suffix="%">0%</span>
+          <p class="counter-label">do PIB brasileiro</p>
+          <p class="counter-source">CEPEA-USP / CNA, 2023</p>
+        </div>
+        <!-- Fonte: MDIC – Balanço Comercial 2023 -->
+        <div class="counter-card">
+          <span class="counter-number" data-target="166" data-suffix=" bi">0 bi</span>
+          <p class="counter-label">USD em exportações</p>
+          <p class="counter-source">MDIC, 2023</p>
+        </div>
+        <!-- Fonte: IBGE – PNAD Contínua, 2023 -->
+        <div class="counter-card">
+          <span class="counter-number" data-target="33" data-suffix="%">0%</span>
+          <p class="counter-label">da força de trabalho</p>
+          <p class="counter-source">IBGE / PNAD, 2023</p>
+        </div>
+        <!-- Fonte: MAPA – Mercado de Defensivos, 2023 -->
+        <div class="counter-card">
+          <span class="counter-number" data-target="180" data-suffix="+">0+</span>
+          <p class="counter-label">países recebem produtos do Brasil</p>
+          <p class="counter-source">MAPA, 2023</p>
+        </div>
+      </div>
+
+      <!-- Barras de Progresso -->
+      <div class="progress-section reveal">
+        <h3 class="progress-title">Participação nas Exportações Mundiais (2023)</h3>
+        <!-- Fonte: FAO / USDA – World Agricultural Supply 2023 -->
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>Soja</span><span class="progress-value">🇧🇷 28% do mercado global</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" data-width="28" style="--bar-color: #1B7A3E;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>Carne Bovina</span><span class="progress-value">🇧🇷 22% do mercado global</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" data-width="22" style="--bar-color: #0D6EFD;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>Açúcar</span><span class="progress-value">🇧🇷 40% do mercado global</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" data-width="40" style="--bar-color: #FFC107;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>Café</span><span class="progress-value">🇧🇷 30% do mercado global</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" data-width="30" style="--bar-color: #6f42c1;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>Frango</span><span class="progress-value">🇧🇷 36% do mercado global</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" data-width="36" style="--bar-color: #20c997;"></div>
+          </div>
+        </div>
+        <p class="progress-source">Fonte: FAO / USDA – World Agricultural Supply and Demand Estimates, 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 3 — COMPARAÇÃO: PRODUÇÃO SUSTENTÁVEL x EXPANSÃO
+       ============================================================ -->
+  <section class="section comparacao" id="comparacao">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Três Caminhos, Uma Escolha</p>
+        <h2 class="section-title">Como Produzir Mais?</h2>
+        <p class="section-desc">
+          Existem diferentes modelos de crescimento agrícola. Cada um gera consequências
+          distintas para a economia, o meio ambiente e as gerações futuras.
+        </p>
+      </div>
+
+      <div class="comp__grid">
+        <!-- Coluna 1 -->
+        <div class="comp__card comp__card--green reveal">
+          <div class="comp__card-header">
+            <span class="comp__card-icon">♻️</span>
+            <h3 class="comp__card-title">Produção Sustentável</h3>
+            <span class="comp__card-badge comp__card-badge--green">✔ Recomendado</span>
+          </div>
+          <ul class="comp__list">
+            <li>✅ Tecnologia e agricultura de precisão</li>
+            <li>✅ Recuperação de áreas degradadas</li>
+            <li>✅ Integração lavoura-pecuária-floresta (ILPF)</li>
+            <li>✅ Menor uso de agroquímicos</li>
+            <li>✅ Preservação dos biomas nativos</li>
+            <li>✅ Acesso a mercados premium internacionais</li>
+            <li>✅ Carbono sequestrado no solo</li>
+          </ul>
+          <p class="comp__footer comp__footer--green">
+            🌱 Produtividade aumenta; área desmatada diminui
+          </p>
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="comp__card comp__card--yellow reveal">
+          <div class="comp__card-header">
+            <span class="comp__card-icon">⚠️</span>
+            <h3 class="comp__card-title">Expansão Controlada</h3>
+            <span class="comp__card-badge comp__card-badge--yellow">⚠ Com ressalvas</span>
+          </div>
+          <ul class="comp__list">
+            <li>⚡ Crescimento da área em zonas já abertas</li>
+            <li>⚡ Respeito às APPs e Reservas Legais</li>
+            <li>⚡ Uso do Código Florestal</li>
+            <li>⚠️ Possível pressão sobre áreas de transição</li>
+            <li>⚠️ Custo ambiental moderado</li>
+            <li>⚠️ Risco de perda de biodiversidade periférica</li>
+            <li>⚡ Dependência de fiscalização eficiente</li>
+          </ul>
+          <p class="comp__footer comp__footer--yellow">
+            ⚡ Produz mais, mas exige vigilância constante
+          </p>
+        </div>
+
+        <!-- Coluna 3 -->
+        <div class="comp__card comp__card--red reveal">
+          <div class="comp__card-header">
+            <span class="comp__card-icon">🚨</span>
+            <h3 class="comp__card-title">Expansão Sem Controle</h3>
+            <span class="comp__card-badge comp__card-badge--red">✖ Insustentável</span>
+          </div>
+          <ul class="comp__list">
+            <li>❌ Desmatamento ilegal</li>
+            <li>❌ Degradação de nascentes e rios</li>
+            <li>❌ Extinção de espécies nativas</li>
+            <li>❌ Emissão massiva de CO₂</li>
+            <li>❌ Bloqueio de exportações (rastreabilidade)</li>
+            <li>❌ Irregularidade fundiária e conflitos</li>
+            <li>❌ Comprometimento do regime de chuvas</li>
+          </ul>
+          <p class="comp__footer comp__footer--red">
+            🔥 Ganho de curto prazo, colapso no longo prazo
+          </p>
+        </div>
+      </div>
+
+      <!-- Gráfico de barras animado JS -->
+      <div class="chart-wrap reveal">
+        <h3 class="chart-title">Produtividade da Soja Brasileira (ton/ha) — Evolução com Tecnologia</h3>
+        <p class="chart-subtitle">Fonte: CONAB – Séries Históricas, 2023</p>
+        <canvas id="chartSoja" width="800" height="320" aria-label="Gráfico de barras mostrando evolução da produtividade da soja brasileira de 1980 a 2023" role="img"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 4 — BIOMAS BRASILEIROS
+       Fonte: IBGE / MapBiomas 2023
+       ============================================================ -->
+  <section class="section biomas" id="biomas">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Patrimônio Natural</p>
+        <h2 class="section-title">Os 6 Biomas do Brasil</h2>
+        <p class="section-desc">
+          Cada bioma brasileiro é um ecossistema único — com fauna, flora, clima e
+          papel ecológico próprio. Todos estão diretamente impactados pelas escolhas
+          do agronegócio.
+        </p>
+      </div>
+
+      <div class="biomas__grid">
+
+        <!-- Amazônia -->
+        <!-- Fonte: INPE – PRODES, 2023 -->
+        <article class="bioma-card reveal" data-bioma="amazonia">
+          <div class="bioma-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=600&q=80"
+              alt="Vista aérea da Floresta Amazônica com rio serpenteando entre vegetação densa — Amazônia, Brasil"
+              class="bioma-card__img"
+              loading="lazy"
+            />
+            <!-- Crédito: Foto de Pinho on Unsplash -->
+            <div class="bioma-card__overlay">
+              <span class="bioma-card__pct">Desmatamento acumulado: ~20%</span>
+            </div>
+          </div>
+          <div class="bioma-card__body">
+            <h3 class="bioma-card__title">🌳 Amazônia</h3>
+            <p class="bioma-card__area">Área: 4,2 milhões de km²</p>
+            <p class="bioma-card__text">
+              Maior floresta tropical do mundo. Regula o ciclo hidrológico de toda a América
+              do Sul e sequestra bilhões de toneladas de carbono. Abriga 10% de todas as
+              espécies do planeta.
+            </p>
+            <div class="bioma-card__bar-wrap">
+              <div class="bioma-card__bar" data-width="20" style="--bar-color:#e74c3c;"></div>
+            </div>
+            <p class="bioma-card__bar-label">20% já desmatado (INPE/PRODES, 2023)</p>
+          </div>
+        </article>
+
+        <!-- Cerrado -->
+        <!-- Fonte: MapBiomas – Relatório Anual, 2023 -->
+        <article class="bioma-card reveal" data-bioma="cerrado">
+          <div class="bioma-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1601370552761-8582122e7a22?w=600&q=80"
+              alt="Paisagem do Cerrado brasileiro com vegetação típica de savana tropical e céu azul ao fundo"
+              class="bioma-card__img"
+              loading="lazy"
+            />
+            <!-- Crédito: Unsplash – domínio público editorial -->
+            <div class="bioma-card__overlay">
+              <span class="bioma-card__pct">Desmatamento acumulado: ~54%</span>
+            </div>
+          </div>
+          <div class="bioma-card__body">
+            <h3 class="bioma-card__title">🌻 Cerrado</h3>
+            <p class="bioma-card__area">Área: 2,0 milhões de km²</p>
+            <p class="bioma-card__text">
+              "Berço das águas" do Brasil — origem de 8 das 12 principais bacias hidrográficas.
+              Também é o principal bioma produtivo do agronegócio brasileiro, especialmente
+              para soja e algodão.
+            </p>
+            <div class="bioma-card__bar-wrap">
+              <div class="bioma-card__bar" data-width="54" style="--bar-color:#e67e22;"></div>
+            </div>
+            <p class="bioma-card__bar-label">54% já desmatado (MapBiomas, 2023)</p>
+          </div>
+        </article>
+
+        <!-- Mata Atlântica -->
+        <!-- Fonte: SOS Mata Atlântica / MapBiomas 2023 -->
+        <article class="bioma-card reveal" data-bioma="mata-atlantica">
+          <div class="bioma-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1592861956120-e524fc739696?w=600&q=80"
+              alt="Floresta da Mata Atlântica com vegetação exuberante, bromélias e fauna local em primeiro plano"
+              class="bioma-card__img"
+              loading="lazy"
+            />
+            <!-- Crédito: Unsplash – domínio público editorial -->
+            <div class="bioma-card__overlay">
+              <span class="bioma-card__pct">Desmatamento acumulado: ~88%</span>
+            </div>
+          </div>
+          <div class="bioma-card__body">
+            <h3 class="bioma-card__title">🦜 Mata Atlântica</h3>
+            <p class="bioma-card__area">Área original: 1,1 milhão de km²</p>
+            <p class="bioma-card__text">
+              Um dos biomas mais ameaçados do mundo. Restam apenas <strong>12%</strong>
+              da cobertura original. Mesmo assim, abriga 72% das espécies de plantas
+              endêmicas do Brasil e mais de 8.000 espécies animais.
+            </p>
+            <div class="bioma-card__bar-wrap">
+              <div class="bioma-card__bar" data-width="88" style="--bar-color:#c0392b;"></div>
+            </div>
+            <p class="bioma-card__bar-label">88% já desmatado (SOS Mata Atlântica, 2023)</p>
+          </div>
+        </article>
+
+        <!-- Caatinga -->
+        <!-- Fonte: MapBiomas 2023 -->
+        <article class="bioma-card reveal" data-bioma="caatinga">
+          <div class="bioma-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1628413993556-c8823c0a073b?w=600&q=80"
+              alt="Paisagem semiárida da Caatinga com cactos e plantas xerófitas sob sol intenso no Nordeste brasileiro"
+              class="bioma-card__img"
+              loading="lazy"
+            />
+            <!-- Crédito: Unsplash -->
+            <div class="bioma-card__overlay">
+              <span class="bioma-card__pct">Desmatamento acumulado: ~48%</span>
+            </div>
+          </div>
+          <div class="bioma-card__body">
+            <h3 class="bioma-card__title">🌵 Caatinga</h3>
+            <p class="bioma-card__area">Área: 845.000 km²</p>
+            <p class="bioma-card__text">
+              Única floresta tropical exclusivamente brasileira. Extremamente adaptada
+              à seca, com espécies endêmicas únicas. Sustenta a vida de 27 milhões
+              de pessoas no semiárido nordestino.
+            </p>
+            <div class="bioma-card__bar-wrap">
+              <div class="bioma-card__bar" data-width="48" style="--bar-color:#d35400;"></div>
+            </div>
+            <p class="bioma-card__bar-label">48% já desmatado (MapBiomas, 2023)</p>
+          </div>
+        </article>
+
+        <!-- Pantanal -->
+        <!-- Fonte: INPE / MapBiomas 2023 -->
+        <article class="bioma-card reveal" data-bioma="pantanal">
+          <div class="bioma-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=600&q=80"
+              alt="Onça-pintada descansando às margens de rio no Pantanal Mato-grossense, maior zona úmida continental do mundo"
+              class="bioma-card__img"
+              loading="lazy"
+            />
+            <!-- Crédito: Unsplash -->
+            <div class="bioma-card__overlay">
+              <span class="bioma-card__pct">Incêndios 2020: 30% queimado</span>
+            </div>
+          </div>
+          <div class="bioma-card__body">
+            <h3 class="bioma-card__title">🐊 Pantanal</h3>
+            <p class="bioma-card__area">Área: 150.000 km²</p>
+            <p class="bioma-card__text">
+              Maior zona úmida continental do planeta. Patrimônio Natural da Humanidade
+              (UNESCO). Em 2020, incêndios destruíram quase <strong>30%</strong> de sua
+              área em um único ano — recorde histórico devastador.
+            </p>
+            <div class="bioma-card__bar-wrap">
+              <div class="bioma-card__bar" data-width="30" style="--bar-color:#e74c3c;"></div>
+            </div>
+            <p class="bioma-card__bar-label">30% queimado em 2020 (INPE, 2020)</p>
+          </div>
+        </article>
+
+        <!-- Pampa -->
+        <!-- Fonte: MapBiomas 2023 -->
+        <article class="bioma-card reveal" data-bioma="pampa">
+          <div class="bioma-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&q=80"
+              alt="Campos abertos do Pampa gaúcho com pastagem nativa verde sob céu nublado no Rio Grande do Sul"
+              class="bioma-card__img"
+              loading="lazy"
+            />
+            <!-- Crédito: Unsplash -->
+            <div class="bioma-card__overlay">
+              <span class="bioma-card__pct">Desmatamento acumulado: ~54%</span>
+            </div>
+          </div>
+          <div class="bioma-card__body">
+            <h3 class="bioma-card__title">🐎 Pampa</h3>
+            <p class="bioma-card__area">Área: 176.000 km²</p>
+            <p class="bioma-card__text">
+              Campos sulinos de grande riqueza em gramíneas e fauna. Fundamental para a
+              pecuária gaúcha. A conversão para lavouras de soja pressiona os campos nativos,
+              com perdas irreversíveis de biodiversidade pastoral.
+            </p>
+            <div class="bioma-card__bar-wrap">
+              <div class="bioma-card__bar" data-width="54" style="--bar-color:#8e44ad;"></div>
+            </div>
+            <p class="bioma-card__bar-label">54% já convertido (MapBiomas, 2023)</p>
+          </div>
+        </article>
+
+      </div><!-- /biomas__grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 5 — DADOS & GRÁFICOS ANIMADOS
+       ============================================================ -->
+  <section class="section dados" id="dados">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Agricultura de Precisão & Tecnologia</p>
+        <h2 class="section-title">Mais Produção, Menos Área</h2>
+        <p class="section-desc">
+          Entre 1990 e 2023, o Brasil <strong>triplicou sua produção agrícola</strong>
+          enquanto a área plantada cresceu apenas 40%. O segredo: tecnologia, genética
+          e manejo eficiente do solo.
+          <!-- Fonte: EMBRAPA / CONAB / IBGE -->
+        </p>
+      </div>
+
+      <!-- Gráfico de linha dupla -->
+      <div class="chart-wrap reveal">
+        <h3 class="chart-title">Produção x Área Plantada (Índice base 100 = 1990)</h3>
+        <p class="chart-subtitle">Fonte: CONAB – Séries Históricas de Grãos, 2023</p>
+        <canvas id="chartProdArea" width="800" height="360" aria-label="Gráfico de linha comparando crescimento da produção agrícola e da área plantada de 1990 a 2023 — produção cresceu muito mais que a área" role="img"></canvas>
+      </div>
+
+      <!-- Cards de tecnologias -->
+      <div class="tecno__grid">
+        <article class="tecno-card reveal">
+          <span class="tecno-card__icon">🛰️</span>
+          <h4 class="tecno-card__title">Agricultura de Precisão</h4>
+          <p class="tecno-card__text">
+            Uso de GPS, drones, sensores e big data para aplicar insumos exatamente
+            onde e quanto cada planta precisa. Reduz custos em até <strong>25%</strong>
+            e aumenta a produtividade em até <strong>15%</strong>.
+          </p>
+          <!-- Fonte: EMBRAPA Informática Agropecuária, 2022 -->
+        </article>
+        <article class="tecno-card reveal">
+          <span class="tecno-card__icon">🌱</span>
+          <h4 class="tecno-card__title">Plantio Direto</h4>
+          <p class="tecno-card__text">
+            Sistema que evita o revolvimento do solo, preservando sua estrutura,
+            umidade e matéria orgânica. O Brasil tem a <strong>maior área</strong>
+            de plantio direto do mundo: 35 milhões de hectares.
+          </p>
+          <!-- Fonte: FEBRAPDP, 2023 -->
+        </article>
+        <article class="tecno-card reveal">
+          <span class="tecno-card__icon">🔬</span>
+          <h4 class="tecno-card__title">Melhoramento Genético</h4>
+          <p class="tecno-card__text">
+            A EMBRAPA desenvolveu variedades de soja adaptadas ao cerrado tropical —
+            algo considerado impossível nos anos 1970. Hoje, 60% das variedades
+            cultivadas no Brasil têm origem em pesquisa pública nacional.
+          </p>
+          <!-- Fonte: EMBRAPA Soja, 2023 -->
+        </article>
+        <article class="tecno-card reveal">
+          <span class="tecno-card__icon">💧</span>
+          <h4 class="tecno-card__title">Irrigação Eficiente</h4>
+          <p class="tecno-card__text">
+            Técnicas como gotejamento e pivô central de alta eficiência reduzem o
+            uso de água em até <strong>60%</strong> comparado à irrigação convencional,
+            mantendo ou aumentando a produtividade.
+          </p>
+          <!-- Fonte: ANA – Agência Nacional de Águas, 2021 -->
+        </article>
+        <article class="tecno-card reveal">
+          <span class="tecno-card__icon">🌲</span>
+          <h4 class="tecno-card__title">ILPF</h4>
+          <p class="tecno-card__text">
+            A Integração Lavoura-Pecuária-Floresta combina culturas agrícolas, pastagem
+            e árvores no mesmo terreno. Aumenta a renda do produtor em até
+            <strong>30%</strong> e sequestra carbono simultaneamente.
+          </p>
+          <!-- Fonte: EMBRAPA / Rede ILPF, 2022 -->
+        </article>
+        <article class="tecno-card reveal">
+          <span class="tecno-card__icon">♻️</span>
+          <h4 class="tecno-card__title">Recuperação de Pastagens</h4>
+          <p class="tecno-card__text">
+            O Brasil tem <strong>50 milhões de hectares</strong> de pastagens degradadas.
+            Recuperá-las com correção de solo e forragens melhoradas pode dobrar
+            a capacidade produtiva sem desmatar um hectare sequer.
+          </p>
+          <!-- Fonte: EMBRAPA Gado de Corte / Plano ABC+, 2022 -->
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 6 — LINHA DO TEMPO DA PRODUTIVIDADE
+       ============================================================ -->
+  <section class="section timeline" id="timeline">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">História da Inovação</p>
+        <h2 class="section-title">A Evolução do Agro Brasileiro</h2>
+        <p class="section-desc">
+          De um país importador de alimentos nos anos 1960 a líder mundial em
+          agronegócio no século XXI — uma jornada de ciência, determinação e inovação.
+        </p>
+      </div>
+
+      <div class="timeline__wrap">
+
+        <div class="timeline__item reveal timeline__item--left">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">1973</span>
+            <h4 class="timeline__title">Fundação da EMBRAPA</h4>
+            <p class="timeline__text">
+              Criada pelo governo federal para desenvolver pesquisa agropecuária tropical.
+              Considerada hoje uma das maiores empresas de pesquisa agrícola do mundo.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--right">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">1975</span>
+            <h4 class="timeline__title">Correção do Solo do Cerrado</h4>
+            <p class="timeline__text">
+              A EMBRAPA descobre que a calagem (adição de calcário) torna o solo
+              ácido do Cerrado produtivo — abrindo 200 milhões de hectares para agricultura.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--left">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">1986</span>
+            <h4 class="timeline__title">Plantio Direto ganha escala</h4>
+            <p class="timeline__text">
+              Técnica adotada em grande escala no Sul do Brasil. Reduz erosão,
+              preserva a umidade e melhora a estrutura do solo drasticamente.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--right">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">1996</span>
+            <h4 class="timeline__title">Soja Transgênica</h4>
+            <p class="timeline__text">
+              Introdução das cultivares geneticamente modificadas que resistem a
+              herbicidas e pragas, reduzindo perdas e custos de produção.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--left">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">2006</span>
+            <h4 class="timeline__title">Moratória da Soja</h4>
+            <p class="timeline__text">
+              Acordo voluntário que proibiu a compra de soja produzida em áreas
+              desmatadas na Amazônia após julho de 2006. Reduziu o desmatamento
+              para lavoura na região em 90%.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--right">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">2012</span>
+            <h4 class="timeline__title">Novo Código Florestal</h4>
+            <p class="timeline__text">
+              Lei que estabelece Áreas de Preservação Permanente (APPs) e Reservas
+              Legais obrigatórias, equilibrando produção e conservação ambiental.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--left">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">2016</span>
+            <h4 class="timeline__title">Plano ABC+ Agricultura de Baixo Carbono</h4>
+            <p class="timeline__text">
+              Política pública para adoção de práticas sustentáveis: ILPF, plantio
+              direto, recuperação de pastagens e fixação biológica de nitrogênio.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal timeline__item--right">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">2023</span>
+            <h4 class="timeline__title">Safra Recorde: 338 Mi de Toneladas</h4>
+            <p class="timeline__text">
+              Maior colheita de grãos da história brasileira, consolidando o Brasil
+              como maior exportador agrícola do mundo (por valor) à frente dos EUA.
+            </p>
+            <!-- Fonte: CONAB, 2023 -->
+          </div>
+        </div>
+
+      </div><!-- /timeline__wrap -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 7 — CURIOSIDADES
+       ============================================================ -->
+  <section class="section curiosidades" id="curiosidades">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Você Sabia?</p>
+        <h2 class="section-title">Fatos Surpreendentes do Agro</h2>
+      </div>
+
+      <div class="curio__grid">
+        <div class="curio-card reveal">
+          <span class="curio-card__num">01</span>
+          <p class="curio-card__text">
+            O Brasil produz comida suficiente para alimentar <strong>1,3 bilhão</strong> de
+            pessoas — mais de 6 vezes sua própria população.
+          </p>
+          <span class="curio-card__source">Fonte: MAPA / FAO, 2022</span>
+        </div>
+        <div class="curio-card reveal">
+          <span class="curio-card__num">02</span>
+          <p class="curio-card__text">
+            A área cultivada com soja no Brasil (40 mi ha) é <strong>maior que toda a
+            Alemanha</strong>. E ainda assim, 66% do território brasileiro é vegetação nativa.
+          </p>
+          <span class="curio-card__source">Fonte: MapBiomas, 2023</span>
+        </div>
+        <div class="curio-card reveal">
+          <span class="curio-card__num">03</span>
+          <p class="curio-card__text">
+            Graças à ILPF, é possível criar <strong>5 bois onde antes cabia 1</strong>,
+            recuperando pastagem degradada sem derrubar uma única árvore.
+          </p>
+          <span class="curio-card__source">Fonte: EMBRAPA / Rede ILPF, 2022</span>
+        </div>
+        <div class="curio-card reveal">
+          <span class="curio-card__num">04</span>
+          <p class="curio-card__text">
+            O Cerrado, chamado "savana mais biodiversa do mundo", possui mais de
+            <strong>12.000 espécies de plantas</strong> — 35% são únicas desse bioma.
+          </p>
+          <span class="curio-card__source">Fonte: IBGE / INPE, 2022</span>
+        </div>
+        <div class="curio-card reveal">
+          <span class="curio-card__num">05</span>
+          <p class="curio-card__text">
+            Um único hectare de florestas tropicais pode sequestrar
+            <strong>200 toneladas de carbono</strong> — equivalente a tirar 43 carros
+            das ruas por um ano.
+          </p>
+          <span class="curio-card__source">Fonte: IPCC, 2021</span>
+        </div>
+        <div class="curio-card reveal">
+          <span class="curio-card__num">06</span>
+          <p class="curio-card__text">
+            A produtividade do milho brasileiro <strong>quadruplicou</strong> entre 1990
+            e 2023 — de 1,7 para 6,3 toneladas por hectare — sem expansão proporcional
+            de área.
+          </p>
+          <span class="curio-card__source">Fonte: CONAB, 2023</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 8 — MITOS E VERDADES
+       ============================================================ -->
+  <section class="section mitos" id="mitos">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Separando Fatos da Ficção</p>
+        <h2 class="section-title">Mitos e Verdades do Agronegócio</h2>
+        <p class="section-desc">Clique em cada card para revelar a resposta.</p>
+      </div>
+
+      <div class="mitos__grid">
+
+        <div class="mito-card reveal" tabindex="0" role="button" aria-label="Clique para revelar se é mito ou verdade">
+          <div class="mito-card__inner">
+            <div class="mito-card__front">
+              <span class="mito-card__q">❓</span>
+              <p>"Para produzir mais alimentos, o Brasil precisa desmatar mais."</p>
+            </div>
+            <div class="mito-card__back mito-card__back--mito">
+              <span class="mito-card__tag">MITO</span>
+              <p>O Brasil tem <strong>50 mi ha de pastagens degradadas</strong> e 5 mi ha
+              de terras agrícolas abandonadas que poderiam ser recuperadas sem desmatar
+              nenhuma área nova. (EMBRAPA, 2022)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mito-card reveal" tabindex="0" role="button" aria-label="Clique para revelar se é mito ou verdade">
+          <div class="mito-card__inner">
+            <div class="mito-card__front">
+              <span class="mito-card__q">❓</span>
+              <p>"A agricultura familiar não é relevante para a segurança alimentar."</p>
+            </div>
+            <div class="mito-card__back mito-card__back--mito">
+              <span class="mito-card__tag">MITO</span>
+              <p>A agricultura familiar representa <strong>70% dos alimentos</strong> que
+              chegam à mesa dos brasileiros, segundo o IBGE (Censo Agropecuário, 2017),
+              apesar de ocupar apenas 23% das terras agrícolas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mito-card reveal" tabindex="0" role="button" aria-label="Clique para revelar se é mito ou verdade">
+          <div class="mito-card__inner">
+            <div class="mito-card__front">
+              <span class="mito-card__q">❓</span>
+              <p>"O agronegócio e a preservação ambiental são incompatíveis."</p>
+            </div>
+            <div class="mito-card__back mito-card__back--mito">
+              <span class="mito-card__tag">MITO</span>
+              <p>Produtores que adotam ILPF, plantio direto e agricultura de precisão
+              provam o contrário. O programa ABC+ já beneficiou mais de
+              <strong>4 milhões de hectares</strong> com práticas sustentáveis rentáveis.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mito-card reveal" tabindex="0" role="button" aria-label="Clique para revelar se é mito ou verdade">
+          <div class="mito-card__inner">
+            <div class="mito-card__front">
+              <span class="mito-card__q">❓</span>
+              <p>"O Brasil ainda preserva a maior parte de seus biomas naturais."</p>
+            </div>
+            <div class="mito-card__back mito-card__back--verdade">
+              <span class="mito-card__tag">VERDADE</span>
+              <p><strong>66% do território brasileiro</strong> ainda é coberto por
+              vegetação nativa — o maior percentual entre as grandes nações agrícolas
+              do mundo. (MapBiomas, 2023)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mito-card reveal" tabindex="0" role="button" aria-label="Clique para revelar se é mito ou verdade">
+          <div class="mito-card__inner">
+            <div class="mito-card__front">
+              <span class="mito-card__q">❓</span>
+              <p>"O desmatamento da Amazônia está aumentando ano após ano."</p>
+            </div>
+            <div class="mito-card__back mito-card__back--mito">
+              <span class="mito-card__tag">MITO — PARCIALMENTE</span>
+              <p>Após o pico em 2021 (13.000 km²), o desmatamento na Amazônia caiu
+              <strong>50% em 2023</strong> (6.200 km²), o menor índice em 8 anos.
+              Mas ainda é muito alto. (INPE/PRODES, 2023)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mito-card reveal" tabindex="0" role="button" aria-label="Clique para revelar se é mito ou verdade">
+          <div class="mito-card__inner">
+            <div class="mito-card__front">
+              <span class="mito-card__q">❓</span>
+              <p>"Tecnologia agrícola só beneficia grandes produtores."</p>
+            </div>
+            <div class="mito-card__back mito-card__back--mito">
+              <span class="mito-card__tag">MITO</span>
+              <p>Drones de baixo custo, apps de monitoramento e sementes melhoradas
+              são acessíveis a pequenos produtores. Programas como o
+              <strong>AgroNordeste</strong> levam inovação ao semiárido familiar.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 9 — QUIZ INTERATIVO
+       ============================================================ -->
+  <section class="section quiz" id="quiz">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Teste seus Conhecimentos</p>
+        <h2 class="section-title">Quiz: Agro & Sustentabilidade</h2>
+        <p class="section-desc">10 perguntas sobre agronegócio, biomas e sustentabilidade. Boa sorte!</p>
+      </div>
+
+      <div class="quiz__box reveal">
+        <!-- Progresso -->
+        <div class="quiz__progress-wrap">
+          <div class="quiz__progress-bar" id="quizProgressBar"></div>
+        </div>
+        <p class="quiz__progress-text" id="quizProgressText">Pergunta 1 de 10</p>
+
+        <!-- Pergunta -->
+        <div class="quiz__question-wrap" id="quizQuestionWrap">
+          <p class="quiz__question" id="quizQuestion">Carregando...</p>
+          <div class="quiz__options" id="quizOptions"></div>
+        </div>
+
+        <!-- Resultado -->
+        <div class="quiz__result" id="quizResult" style="display:none;">
+          <div class="quiz__result-icon" id="quizResultIcon"></div>
+          <h3 class="quiz__result-title" id="quizResultTitle"></h3>
+          <p class="quiz__result-text" id="quizResultText"></p>
+          <button class="btn btn--primary" id="quizNextBtn">Próxima →</button>
+        </div>
+
+        <!-- Final -->
+        <div class="quiz__final" id="quizFinal" style="display:none;">
+          <div class="quiz__final-score" id="quizFinalScore"></div>
+          <h3 class="quiz__final-title">Quiz concluído!</h3>
+          <p class="quiz__final-feedback" id="quizFinalFeedback"></p>
+          <button class="btn btn--primary" id="quizRestartBtn">Jogar novamente</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 10 — GALERIA DE IMAGENS
+       ============================================================ -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Imagens do Campo</p>
+        <h2 class="section-title">Galeria: O Brasil Que Produz e Preserva</h2>
+        <p class="section-desc">Todas as imagens são de domínio público ou licença livre (Unsplash / Pexels).</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="galeria__filtros reveal">
+        <button class="galeria__filtro galeria__filtro--active" data-filtro="todos">Todos</button>
+        <button class="galeria__filtro" data-filtro="producao">Produção</button>
+        <button class="galeria__filtro" data-filtro="biomas">Biomas</button>
+        <button class="galeria__filtro" data-filtro="tecnologia">Tecnologia</button>
+        <button class="galeria__filtro" data-filtro="sustentabilidade">Sustentabilidade</button>
+      </div>
+
+      <div class="galeria__grid" id="galeriaGrid">
+
+        <!-- Imagem 1 -->
+        <figure class="galeria__item reveal" data-categoria="producao">
+          <img
+            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80"
+            alt="Campo de soja dourado ao entardecer, pronto para colheita no Centro-Oeste brasileiro"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Ian Schneider / Unsplash -->
+          <figcaption class="galeria__caption">Lavoura de soja — Centro-Oeste | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 2 -->
+        <figure class="galeria__item reveal" data-categoria="biomas">
+          <img
+            src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=600&q=80"
+            alt="Vista aérea da Floresta Amazônica com densa cobertura vegetal verde e rios tortuosos"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Pinho / Unsplash -->
+          <figcaption class="galeria__caption">Floresta Amazônica | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 3 -->
+        <figure class="galeria__item reveal" data-categoria="tecnologia">
+          <img
+            src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?w=600&q=80"
+            alt="Drone agrícola sobrevoando lavoura de milho em dia de aplicação de defensivos com precisão"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Unsplash -->
+          <figcaption class="galeria__caption">Drone na agricultura de precisão | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 4 -->
+        <figure class="galeria__item reveal" data-categoria="sustentabilidade">
+          <img
+            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80"
+            alt="Sistema de integração lavoura-pecuária-floresta com gado pastando entre faixas de árvores nativas"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Unsplash -->
+          <figcaption class="galeria__caption">Sistema ILPF — Integração Lavoura-Pecuária-Floresta | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 5 -->
+        <figure class="galeria__item reveal" data-categoria="producao">
+          <img
+            src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80"
+            alt="Colheitadeira moderna trabalhando em grande lavoura de trigo durante safra no Sul do Brasil"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Unsplash -->
+          <figcaption class="galeria__caption">Colheita mecanizada — Sul do Brasil | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 6 -->
+        <figure class="galeria__item reveal" data-categoria="biomas">
+          <img
+            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&q=80"
+            alt="Campos nativos do Pampa gaúcho ao entardecer com gado crioulo pastando em primeiro plano"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Unsplash -->
+          <figcaption class="galeria__caption">Pampa gaúcho | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 7 -->
+        <figure class="galeria__item reveal" data-categoria="tecnologia">
+          <img
+            src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=600&q=80"
+            alt="Pivô central de irrigação moderno funcionando sobre lavoura verde no cerrado brasileiro"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Unsplash -->
+          <figcaption class="galeria__caption">Pivô central de irrigação | Foto: Unsplash</figcaption>
+        </figure>
+
+        <!-- Imagem 8 -->
+        <figure class="galeria__item reveal" data-categoria="sustentabilidade">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
+            alt="Horta orgânica sustentável com plantas crescendo em solo saudável e rico em matéria orgânica"
+            class="galeria__img"
+            loading="lazy"
+          />
+          <!-- Crédito: Markus Spiske / Unsplash -->
+          <figcaption class="galeria__caption">Agricultura orgânica sustentável | Foto: Unsplash</figcaption>
+        </figure>
+
+      </div><!-- /galeria__grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 11 — CONCLUSÃO
+       ============================================================ -->
+  <section class="section conclusao" id="conclusao">
+    <div class="container">
+      <div class="conclusao__content reveal">
+        <p class="section-eyebrow" style="color:#FFC107;">O que aprendemos</p>
+        <h2 class="conclusao__title">O Futuro Sustentável É Possível — e Já Começou</h2>
+        <p class="conclusao__text">
+          O Brasil tem em mãos uma responsabilidade histórica única: é o maior
+          exportador agrícola do mundo <em>e</em> o guardião de mais de 60% das florestas
+          tropicais ainda existentes no planeta.
+        </p>
+        <p class="conclusao__text">
+          A boa notícia é que não existe contradição entre produzir e preservar.
+          A ciência, representada pela EMBRAPA e pesquisadores brasileiros, já provou
+          isso décadas atrás. O desafio agora é de <strong>escala, política pública
+          e consciência coletiva</strong>.
+        </p>
+        <p class="conclusao__text">
+          Cada estudante que compreende essa dinâmica torna-se um agente de transformação —
+          seja como futuro agricultor, cientista, consumidor consciente ou cidadão
+          que cobra responsabilidade de seus representantes.
+        </p>
+        <div class="conclusao__ctas">
+          <a href="#quiz" class="btn btn--primary">Refazer o Quiz</a>
+          <a href="#referencias" class="btn btn--outline" style="border-color:#FFC107; color:#FFC107;">Ver Referências</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 12 — REFERÊNCIAS
+       ============================================================ -->
+  <section class="section referencias" id="referencias">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Transparência Acadêmica</p>
+        <h2 class="section-title">Fontes e Referências</h2>
+        <p class="section-desc">Todas as informações deste site são baseadas em dados oficiais e fontes científicas verificáveis.</p>
+      </div>
+
+      <div class="refs__grid reveal">
+
+        <div class="ref-card">
+          <span class="ref-card__icon">🌱</span>
+          <h4 class="ref-card__org">EMBRAPA</h4>
+          <ul class="ref-card__list">
+            <li>Empresa Brasileira de Pesquisa Agropecuária – <em>50 Anos de Pesquisa</em>, 2023</li>
+            <li>EMBRAPA Soja – Tecnologias de Produção de Soja, 2023</li>
+            <li>Rede ILPF – Resultados e Perspectivas, 2022</li>
+            <li>EMBRAPA Informática Agropecuária – Agricultura de Precisão, 2022</li>
+          </ul>
+        </div>
+
+        <div class="ref-card">
+          <span class="ref-card__icon">🛰️</span>
+          <h4 class="ref-card__org">INPE</h4>
+          <ul class="ref-card__list">
+            <li>PRODES – Monitoramento do Desmatamento da Floresta Amazônica, 2023</li>
+            <li>DETER – Sistema de Detecção de Desmatamento em Tempo Real, 2023</li>
+            <li>Relatório de Incêndios Florestais no Pantanal, 2020</li>
+          </ul>
+        </div>
+
+        <div class="ref-card">
+          <span class="ref-card__icon">🗺️</span>
+          <h4 class="ref-card__org">MapBiomas</h4>
+          <ul class="ref-card__list">
+            <li>Relatório Anual do Desmatamento no Brasil, 2023</li>
+            <li>Cobertura e Uso da Terra no Brasil (1985–2023)</li>
+            <li>Alertas de Desmatamento – Plataforma Online, 2023</li>
+          </ul>
+        </div>
+
+div>
+
+        <div class="ref-card">
+          <span class="ref-card__icon">🌍</span>
+          <h4 class="ref-card__org">FAO / ONU</h4>
+          <ul class="ref-card__list">
+            <li>World Food and Agriculture – Statistical Yearbook, 2022</li>
+            <li>The Future of Food and Agriculture, 2022</li>
+            <li>USDA – World Agricultural Supply and Demand Estimates, 2023</li>
+          </ul>
+        </div>
+
+        <div class="ref-card">
+          <span class="ref-card__icon">📊</span>
+          <h4 class="ref-card__org">IBGE / CONAB</h4>
+          <ul class="ref-card__list">
+            <li>IBGE – Censo Agropecuário, 2017</li>
+            <li>IBGE – PNAD Contínua, 2023</li>
+            <li>CONAB – Acompanhamento da Safra Brasileira de Grãos 2023/24</li>
+            <li>CONAB – Séries Históricas de Grãos, 2023</li>
+          </ul>
+        </div>
+
+        <div class="ref-card">
+          <span class="ref-card__icon">🌾</span>
+          <h4 class="ref-card__org">MAPA / Outros</h4>
+          <ul class="ref-card__list">
+            <li>Ministério da Agricultura – Agro+ 2030, 2022</li>
+            <li>CEPEA-USP / CNA – PIB do Agronegócio Brasileiro, 2023</li>
+            <li>MDIC – Balanço Comercial Brasileiro, 2023</li>
+            <li>ANA – Conjuntura dos Recursos Hídricos no Brasil, 2021</li>
+            <li>IPCC – Sixth Assessment Report, 2021</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RODAPÉ
+       ============================================================ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <span class="footer__logo">🌱 AgroFuturo</span>
+            <p class="footer__tagline">
+              Projeto educacional desenvolvido para o Ensino Médio.<br />
+              Tema: Agronegócio e Sustentabilidade no Brasil.
+            </p>
+          </div>
+          <div class="footer__nav">
+            <h5 class="footer__nav-title">Seções</h5>
+            <ul class="footer__nav-list">
+              <li><a href="#intro">Introdução</a></li>
+              <li><a href="#importancia">Importância Econômica</a></li>
+              <li><a href="#biomas">Biomas Brasileiros</a></li>
+              <li><a href="#timeline">Linha do Tempo</a></li>
+              <li><a href="#quiz">Quiz Interativo</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav">
+            <h5 class="footer__nav-title">Fontes Oficiais</h5>
+            <ul class="footer__nav-list">
+              <li><a href="https://www.embrapa.br" target="_blank" rel="noopener">EMBRAPA</a></li>
+              <li><a href="https://www.inpe.br" target="_blank" rel="noopener">INPE</a></li>
+              <li><a href="https://mapbiomas.org" target="_blank" rel="noopener">MapBiomas</a></li>
+              <li><a href="https://www.fao.org" target="_blank" rel="noopener">FAO</a></li>
+              <li><a href="https://www.ibge.gov.br" target="_blank" rel="noopener">IBGE</a></li>
+            </ul>
+          </div>
+          <div class="footer__info">
+            <h5 class="footer__nav-title">Sobre o Projeto</h5>
+            <p class="footer__info-text">
+              Site desenvolvido com HTML, CSS e JavaScript puro,
+              sem frameworks ou bibliotecas externas. Responsivo e
+              acessível para todos os dispositivos.
+            </p>
+            <p class="footer__info-text">
+              Imagens: Unsplash (licença gratuita para uso educacional).<br />
+              Dados: Fontes oficiais 2022–2023.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="footer__copy">
+          © 2024 AgroFuturo — Projeto Educacional · Ensino Médio ·
+          Feito com 💚 para um Brasil que produz e preserva
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Voltar ao Topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+Faça o style.css 
+* script.
+/* ==========================================================
+   RESET
+   ========================================================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background: #f8faf8;
+  color: #222;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+:root {
+
+  --primary: #1b7a3e;
+  --primary-dark: #145b2f;
+  --secondary: #ffc107;
+  --secondary-dark: #e0a800;
+
+  --blue: #0d6efd;
+  --red: #dc3545;
+  --orange: #fd7e14;
+
+  --white: #ffffff;
+  --black: #111111;
+
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+
+  --shadow-sm: 0 4px 12px rgba(0,0,0,.08);
+  --shadow-md: 0 10px 30px rgba(0,0,0,.12);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,.18);
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --transition: all .35s ease;
+}
+
+.container {
+  width: min(1200px, 92%);
+  margin: auto;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto 60px;
+}
+
+.section-eyebrow {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-family: "Merriweather", serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  margin-bottom: 20px;
+  color: var(--gray-900);
+}
+
+.section-desc {
+  color: var(--gray-700);
+  font-size: 1.1rem;
+}
+
+/* ==========================================================
+   BOTÕES
+   ========================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.btn--primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn--primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-3px);
+}
+
+.btn--outline {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn--outline:hover {
+  background: white;
+  color: var(--primary);
+}
+
+/* ==========================================================
+   NAVBAR
+   ========================================================== */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  transition: var(--transition);
+  background: rgba(0,0,0,.25);
+  backdrop-filter: blur(10px);
+}
+
+.navbar.scrolled {
+  background: rgba(10,20,10,.95);
+}
+
+.navbar__container {
+  width: min(1300px, 95%);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.navbar__logo-icon {
+  font-size: 1.8rem;
+}
+
+.navbar__logo-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 28px;
+}
+
+.navbar__link {
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: var(--secondary);
+  transition: .3s;
+}
+
+.navbar__link:hover::after {
+  width: 100%;
+}
+
+.navbar__toggle {
+  display: none;
+  background: transparent;
+}
+
+.navbar__toggle-bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  margin: 5px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background:
+    url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80")
+    center/cover no-repeat;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      rgba(0,0,0,.55),
+      rgba(0,0,0,.65)
+    );
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  width: min(900px, 90%);
+  color: white;
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  color: #ddd;
+}
+
+.hero__title {
+  font-family: "Merriweather", serif;
+  font-size: clamp(3rem, 7vw, 5.8rem);
+  line-height: 1.1;
+}
+
+.hero__title--accent {
+  color: var(--secondary);
+}
+
+.hero__subtitle {
+  margin: 25px auto;
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero__stats {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 2;
+}
+
+.hero__stat {
+  background: rgba(255,255,255,.12);
+  backdrop-filter: blur(10px);
+  padding: 18px;
+  border-radius: 18px;
+  min-width: 180px;
+}
+
+.hero__stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.hero__stat-label {
+  color: white;
+  font-size: .95rem;
+}
+
+.hero__scroll-arrow {
+  position: absolute;
+  bottom: 20px;
+  z-index: 2;
+  color: white;
+  font-size: 2rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%,100%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(8px);
+  }
+}/* ==========================================================
+   INTRODUÇÃO
+   ========================================================== */
+
+.intro {
+  background: #ffffff;
+}
+
+.intro__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.intro__card {
+  background: white;
+  padding: 35px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  border-top: 5px solid var(--primary);
+}
+
+.intro__card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-md);
+}
+
+.intro__card-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.intro__card-title {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: var(--gray-900);
+}
+
+.intro__card-text {
+  color: var(--gray-700);
+}
+
+/* ==========================================================
+   IMPORTÂNCIA ECONÔMICA
+   ========================================================== */
+
+.importancia {
+  background: linear-gradient(
+    180deg,
+    #f4f9f4,
+    #ffffff
+  );
+}
+
+.counters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 25px;
+  margin-bottom: 70px;
+}
+
+.counter-card {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 35px 20px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.counter-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+}
+
+.counter-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.counter-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.counter-source {
+  margin-top: 10px;
+  color: var(--gray-600);
+  font-size: .85rem;
+}
+
+/* ==========================================================
+   BARRAS DE PROGRESSO
+   ========================================================== */
+
+.progress-section {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-sm);
+}
+
+.progress-title {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 1.6rem;
+}
+
+.progress-item {
+  margin-bottom: 25px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.progress-value {
+  color: var(--primary);
+}
+
+.progress-bar-wrap {
+  width: 100%;
+  height: 18px;
+  background: #ececec;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  border-radius: 30px;
+  background: var(--bar-color);
+  transition: width 2s ease;
+}
+
+.progress-source {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--gray-600);
+  font-size: .9rem;
+}
+
+/* ==========================================================
+   COMPARAÇÃO
+   ========================================================== */
+
+.comparacao {
+  background: #f8faf8;
+}
+
+.comp__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.comp__card {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: white;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.comp__card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.comp__card-header {
+  padding: 25px;
+  text-align: center;
+}
+
+.comp__card-icon {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.comp__card-title {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.comp__card-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 50px;
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.comp__card-badge--green {
+  background: rgba(27,122,62,.15);
+  color: var(--primary);
+}
+
+.comp__card-badge--yellow {
+  background: rgba(255,193,7,.18);
+  color: #8a6500;
+}
+
+.comp__card-badge--red {
+  background: rgba(220,53,69,.15);
+  color: var(--red);
+}
+
+.comp__card--green {
+  border-top: 8px solid var(--primary);
+}
+
+.comp__card--yellow {
+  border-top: 8px solid var(--secondary);
+}
+
+.comp__card--red {
+  border-top: 8px solid var(--red);
+}
+
+.comp__list {
+  padding: 0 30px 30px;
+}
+
+.comp__list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.comp__footer {
+  padding: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.comp__footer--green {
+  background: rgba(27,122,62,.08);
+  color: var(--primary);
+}
+
+.comp__footer--yellow {
+  background: rgba(255,193,7,.12);
+  color: #8a6500;
+}
+
+.comp__footer--red {
+  background: rgba(220,53,69,.08);
+  color: var(--red);
+}
+
+/* ==========================================================
+   GRÁFICOS
+   ========================================================== */
+
+.chart-wrap {
+  margin-top: 80px;
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-sm);
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.chart-subtitle {
+  text-align: center;
+  color: var(--gray-600);
+  margin-bottom: 30px;
+}
+
+canvas {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ==========================================================
+   REVEAL ANIMATION
+   ========================================================== */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==========================================================
+   RESPONSIVO
+   ========================================================== */
+
+@media (max-width: 991px) {
+
+  .navbar__menu {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    width: 280px;
+    height: calc(100vh - 80px);
+    background: #132817;
+    transition: .4s;
+    padding: 30px;
+  }
+
+  .navbar__menu.active {
+    right: 0;
+  }
+
+  .navbar__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar__toggle {
+    display: block;
+  }
+
+  .hero__stats {
+    position: static;
+    margin-top: 40px;
+  }
+
+  .hero {
+    padding: 120px 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .section {
+    padding: 70px 0;
+  }
+
+  .progress-label {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .chart-wrap,
+  .progress-section {
+    padding: 25px;
+  }
+
+  .intro__card,
+  .counter-card {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero__title {
+    font-size: 2.8rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+  }
+}
+/* ==========================================================
+   BIOMAS
+   ========================================================== */
+
+.biomas{
+  background:#f7faf7;
+}
+
+.biomas__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:30px;
+}
+
+.bioma-card{
+  background:#fff;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:var(--shadow-sm);
+  transition:.4s;
+}
+
+.bioma-card:hover{
+  transform:translateY(-10px);
+  box-shadow:var(--shadow-lg);
+}
+
+.bioma-card__img{
+  width:100%;
+  height:240px;
+  object-fit:cover;
+}
+
+.bioma-card__body{
+  padding:25px;
+}
+
+.bioma-card__title{
+  font-size:1.5rem;
+  margin-bottom:10px;
+}
+
+.bioma-card__area{
+  color:var(--primary);
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.bioma-card__text{
+  color:#555;
+}
+
+.bioma-card__bar-wrap{
+  height:12px;
+  background:#eee;
+  border-radius:30px;
+  margin-top:15px;
+  overflow:hidden;
+}
+
+.bioma-card__bar{
+  width:0;
+  height:100%;
+  background:var(--bar-color);
+  transition:2s;
+}
+
+/* ==========================================================
+   TECNOLOGIAS
+   ========================================================== */
+
+.tecno__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+  margin-top:50px;
+}
+
+.tecno-card{
+  background:#fff;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:var(--shadow-sm);
+}
+
+.tecno-card:hover{
+  transform:translateY(-8px);
+}
+
+.tecno-card__icon{
+  font-size:3rem;
+  display:block;
+  margin-bottom:15px;
+}
+
+.tecno-card__title{
+  margin-bottom:12px;
+}
+
+/* ==========================================================
+   TIMELINE
+   ========================================================== */
+
+.timeline__wrap{
+  position:relative;
+  max-width:1000px;
+  margin:auto;
+}
+
+.timeline__wrap::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:4px;
+  height:100%;
+  background:var(--primary);
+  transform:translateX(-50%);
+}
+
+.timeline__item{
+  width:50%;
+  position:relative;
+  padding:20px 40px;
+}
+
+.timeline__item--left{
+  left:0;
+}
+
+.timeline__item--right{
+  left:50%;
+}
+
+.timeline__card{
+  background:white;
+  padding:25px;
+  border-radius:18px;
+  box-shadow:var(--shadow-sm);
+}
+
+.timeline__year{
+  color:var(--primary);
+  font-weight:700;
+}
+
+.timeline__dot{
+  width:18px;
+  height:18px;
+  background:var(--secondary);
+  border-radius:50%;
+  position:absolute;
+  top:35px;
+}
+
+.timeline__item--left .timeline__dot{
+  right:-9px;
+}
+
+.timeline__item--right .timeline__dot{
+  left:-9px;
+}
+
+/* ==========================================================
+   CURIOSIDADES
+   ========================================================== */
+
+.curio__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.curio-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:var(--shadow-sm);
+}
+
+.curio-card__num{
+  font-size:2rem;
+  color:var(--primary);
+  font-weight:800;
+}
+
+.curio-card__source{
+  display:block;
+  margin-top:15px;
+  color:#777;
+  font-size:.9rem;
+}
+
+/* ==========================================================
+   MITOS E VERDADES
+   ========================================================== */
+
+.mitos__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:25px;
+}
+
+.mito-card{
+  height:280px;
+  perspective:1000px;
+  cursor:pointer;
+}
+
+.mito-card__inner{
+  position:relative;
+  width:100%;
+  height:100%;
+  transition:1s;
+  transform-style:preserve-3d;
+}
+
+.mito-card.active .mito-card__inner{
+  transform:rotateY(180deg);
+}
+
+.mito-card__front,
+.mito-card__back{
+  position:absolute;
+  width:100%;
+  height:100%;
+  backface-visibility:hidden;
+  border-radius:20px;
+  padding:30px;
+}
+
+.mito-card__front{
+  background:white;
+  box-shadow:var(--shadow-sm);
+}
+
+.mito-card__back{
+  transform:rotateY(180deg);
+  color:white;
+}
+
+.mito-card__back--mito{
+  background:#dc3545;
+}
+
+.mito-card__back--verdade{
+  background:#198754;
+}
+
+/* ==========================================================
+   QUIZ
+   ========================================================== */
+
+.quiz__box{
+  background:white;
+  border-radius:25px;
+  padding:40px;
+  max-width:850px;
+  margin:auto;
+  box-shadow:var(--shadow-md);
+}
+
+.quiz__progress-wrap{
+  height:14px;
+  background:#eee;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.quiz__progress-bar{
+  width:0;
+  height:100%;
+  background:var(--primary);
+}
+
+.quiz__question{
+  font-size:1.4rem;
+  margin:30px 0;
+  text-align:center;
+}
+
+.quiz__options{
+  display:grid;
+  gap:15px;
+}
+
+.quiz-option{
+  padding:16px;
+  border-radius:12px;
+  border:2px solid #ddd;
+  background:white;
+  transition:.3s;
+}
+
+.quiz-option:hover{
+  border-color:var(--primary);
+}
+
+.quiz__result,
+.quiz__final{
+  text-align:center;
+}
+
+/* ==========================================================
+   GALERIA
+   ========================================================== */
+
+.galeria__filtros{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-bottom:40px;
+}
+
+.galeria__filtro{
+  padding:10px 20px;
+  border-radius:30px;
+  background:#eee;
+}
+
+.galeria__filtro--active{
+  background:var(--primary);
+  color:white;
+}
+
+.galeria__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.galeria__item{
+  overflow:hidden;
+  border-radius:18px;
+  background:white;
+  box-shadow:var(--shadow-sm);
+}
+
+.galeria__img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  transition:.5s;
+}
+
+.galeria__item:hover .galeria__img{
+  transform:scale(1.08);
+}
+
+.galeria__caption{
+  padding:15px;
+}
+
+/* ==========================================================
+   CONCLUSÃO
+   ========================================================== */
+
+.conclusao{
+  background:
+  linear-gradient(
+  135deg,
+  #13361e,
+  #1b7a3e);
+}
+
+.conclusao__content{
+  text-align:center;
+  color:white;
+  max-width:900px;
+  margin:auto;
+}
+
+.conclusao__title{
+  font-size:3rem;
+  margin-bottom:20px;
+}
+
+.conclusao__text{
+  margin-bottom:20px;
+}
+
+.conclusao__ctas{
+  margin-top:30px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+/* ==========================================================
+   REFERÊNCIAS
+   ========================================================== */
+
+.refs__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.ref-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:var(--shadow-sm);
+}
+
+.ref-card__icon{
+  font-size:2.2rem;
+}
+
+.ref-card__org{
+  margin:15px 0;
+}
+
+.ref-card__list li{
+  margin-bottom:8px;
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.footer{
+  background:#111;
+  color:white;
+}
+
+.footer__top{
+  padding:60px 0;
+}
+
+.footer__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:40px;
+}
+
+.footer__nav-list li{
+  margin-bottom:10px;
+}
+
+.footer__nav-list a{
+  color:#ccc;
+}
+
+.footer__bottom{
+  border-top:1px solid rgba(255,255,255,.1);
+  text-align:center;
+  padding:20px;
+}
+
+/* ==========================================================
+   BACK TO TOP
+   ========================================================== */
+
+.back-to-top{
+  position:fixed;
+  right:25px;
+  bottom:25px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:var(--primary);
+  color:white;
+  font-size:1.3rem;
+  display:none;
+  z-index:999;
+}
+
+.back-to-top.show{
+  display:block;
+}
+
+/* ==========================================================
+   RESPONSIVO TIMELINE
+   ========================================================== */
+
+@media(max-width:768px){
+
+.timeline__wrap::before{
+ left:20px;
+}
+
+.timeline__item{
+ width:100%;
+ left:0!important;
+ padding-left:60px;
+ padding-right:0;
+}
+
+.timeline__dot{
+ left:11px!important;
+}
+
+.conclusao__title{
+ font-size:2rem;
+}
+
+.quiz__box{
+ padding:25px;
+}
+
+}
+/* ==========================
+   MENU MOBILE
+========================== */
+
+const navToggle = document.getElementById("navToggle");
+const navMenu = document.getElementById("navMenu");
+
+if(navToggle){
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+}
+
+/* ==========================
+   NAVBAR SCROLL
+========================== */
+
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
+  if(window.scrollY > 80){
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+
+/* ==========================
+   REVEAL
+========================== */
+
+const reveals = document.querySelectorAll(".reveal");
+
+function revealElements(){
+
+  reveals.forEach(el => {
+
+    const top = el.getBoundingClientRect().top;
+    const visible = 120;
+
+    if(top < window.innerHeight - visible){
+      el.classList.add("active");
+    }
+
+  });
+
+}
+
+window.addEventListener("scroll", revealElements);
+revealElements();
+
+/* ==========================
+   CONTADORES
+========================== */
+
+const counters = document.querySelectorAll(
+".counter-number, .hero__stat-number"
+);
+
+counters.forEach(counter => {
+
+  const target =
+  Number(counter.dataset.target);
+
+  let count = 0;
+
+  const update = () => {
+
+    const increment = target / 80;
+
+    count += increment;
+
+    if(count < target){
+      counter.innerText =
+      Math.floor(count);
+      requestAnimationFrame(update);
+    } else {
+      counter.innerText = target;
+    }
+
+  };
+
+  update();
+
+});
+
+/* ==========================
+   BARRAS
+========================== */
+
+document
+.querySelectorAll(
+".progress-bar, .bioma-card__bar"
+)
+.forEach(bar => {
+
+  const width = bar.dataset.width;
+
+  setTimeout(() => {
+    bar.style.width = width + "%";
+  },500);
+
+});
+
+/* ==========================
+   MITOS E VERDADES
+========================== */
+
+document
+.querySelectorAll(".mito-card")
+.forEach(card => {
+
+  card.addEventListener("click", () => {
+    card.classList.toggle("active");
+  });
+
+});
+
+/* ==========================
+   FILTRO GALERIA
+========================== */
+
+const filtros =
+document.querySelectorAll(".galeria__filtro");
+
+const itens =
+document.querySelectorAll(".galeria__item");
+
+filtros.forEach(btn => {
+
+  btn.addEventListener("click", () => {
+
+    filtros.forEach(b =>
+      b.classList.remove(
+      "galeria__filtro--active"
+    ));
+
+    btn.classList.add(
+    "galeria__filtro--active"
+    );
+
+    const filtro =
+    btn.dataset.filtro;
+
+    itens.forEach(item => {
+
+      if(
+        filtro === "todos" ||
+        item.dataset.categoria === filtro
+      ){
+        item.style.display = "block";
+      }else{
+        item.style.display = "none";
+      }
+
+    });
+
+  });
+
+});
+
+/* ==========================
+   VOLTAR AO TOPO
+========================== */
+
+const backToTop =
+document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+  if(window.scrollY > 500){
+    backToTop.classList.add("show");
+  }else{
+    backToTop.classList.remove("show");
+  }
+
+});
+
+backToTop.addEventListener("click", () => {
+
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  });
+
+});
+
+/* ==========================
+   QUIZ
+========================== */
+
+const perguntas = [
+
+{
+pergunta:"Qual bioma é conhecido como berço das águas?",
+opcoes:["Caatinga","Cerrado","Pampa","Pantanal"],
+correta:1
+},
+{
+pergunta:"O que significa ILPF?",
+opcoes:[
+"Integração Lavoura Pecuária Floresta",
+"Irrigação Local para Fazendas",
+"Índice de Produção Florestal",
+"Instituto Legal de Produção"
+],
+correta:0
+},
+{
+pergunta:"Quem criou tecnologias para o Cerrado?",
+opcoes:[
+"ONU",
+"EMBRAPA",
+"FAO",
+"IBAMA"
+],
+correta:1
+}
+
+];
+
+let perguntaAtual = 0;
+let pontuacao = 0;
+
+const quizQuestion =
+document.getElementById("quizQuestion");
+
+const quizOptions =
+document.getElementById("quizOptions");
+
+function carregarPergunta(){
+
+ if(!quizQuestion) return;
+
+ const atual =
+ perguntas[perguntaAtual];
+
+ quizQuestion.textContent =
+ atual.pergunta;
+
+ quizOptions.innerHTML = "";
+
+ atual.opcoes.forEach(
+ (opcao,index)=>{
+
+ const btn =
+ document.createElement("button");
+
+ btn.className="quiz-option";
+ btn.textContent=opcao;
+
+ btn.onclick=()=>{
+
+ if(index===atual.correta){
+   pontuacao++;
+ }
+
+ perguntaAtual++;
+
+ if(perguntaAtual <
+ perguntas.length){
+   carregarPergunta();
+ }else{
+   finalizarQuiz();
+ }
+
+ };
+
+ quizOptions.appendChild(btn);
+
+ });
+
+}
+
+function finalizarQuiz(){
+
+ document
+ .getElementById(
+ "quizQuestionWrap"
+ ).style.display="none";
+
+ document
+ .getElementById(
+ "quizFinal"
+ ).style.display="block";
+
+ document
+ .getElementById(
+ "quizFinalScore"
+ ).innerHTML =
+ `${pontuacao}/${perguntas.length}`;
+
+}
+
+carregarPergunta();
